@@ -1,7 +1,7 @@
-@import "../lead/__title/__title.css";
-@import "../lead/__subtitle/__subtitle.css";
-@import "../lead/__image/__image.css";
-@import "../lead/__caption/__caption.css";
+@import "../lead/__title/lead__title.css";
+@import "../lead/__subtitle/lead__subtitle.css";
+@import "../lead/__image/lead__image.css";
+@import "../lead/__caption/lead__caption.css";
 .lead {
    display: flex;
    flex-direction: column;
