@@ -1,0 +1,11 @@
+@import "../header/__logo/header__logo.css";
+@import "../header/__logo/header__logo-image.css";
+@import "../header/__lang/header__lang.css";
+@import "../header/__lang/header__lang-link.css";
+@import "../header/__lang/_active/header__lang-link_active.css";
+.header {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin: 30px 48px 0px;
+}
