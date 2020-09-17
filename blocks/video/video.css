@@ -53,8 +53,8 @@
 .video__title {
    max-width: 100%;
    font-weight: 900;
-   /* font-size: 36px; */
-   /* line-height: 39px; */
+   font-size: 36px;
+   line-height: 39px;
    z-index: 10;
 }
 
