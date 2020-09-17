@@ -1,9 +1,8 @@
-@import "../blocks/intro/intro__title.css";
-@import "../blocks/intro/intro__paragraph.css";
-@import "../blocks/intro/intro__block-statistic.css";
-@import "../blocks/intro/intro__statistic.css";
-@import "../blocks/intro/intro__statistic_amount.css";
-@import "../blocks/intro/intro__title.css";
+@import "../intro/__title/intro__title.css";
+@import "../intro/__paragraph/intro__paragraph.css";
+@import "../intro/__statistic/intro__statistic.css";
+@import "../intro/__statistic-paragraph/intro__statistic-paragraph.css";
+@import "../intro/__statistic-amount/intro__statistic-amount.css";
 .intro {
    max-width: 683px;
    padding: 80px 0px 0px 0px;
@@ -13,64 +12,4 @@
    .intro {
       /* padding: 80px 24px 0px 24px; */
    }
-}
-
-.intro__title {
-   font-weight: 900;
-   font-size: 54px;
-   line-height: 59px;
-   margin: 0px 0px 48px 0px;
-}
-
-@media (max-width: 767px) {
-   .intro__title {
-      font-size: 32px;
-      line-height: 35px;
-      margin: 0px 0px 32px 0px;
-   }
-}
-
-
-/*  */
-
-.intro__paragraph {
-   font-size: 14px;
-   line-height: 24px;
-   margin: 0px 0px 24px 0px;
-}
-
-@media (max-width: 767px) {
-   .intro__paragraph {
-      font-size: 16px;
-      line-height: 27px;
-      margin: 0px 0px 24px 0px;
-   }
-}
-
-
-/*  */
-
-.intro__statistic {}
-
-
-/*  */
-
-.intro__statistic-paragraph {
-   font-weight: bold;
-   font-size: 13px;
-   line-height: 20px;
-}
-
-@media (max-width: 767px) {
-   .intro__statistic-paragraph {
-      font-size: 12px;
-      line-height: 19px;
-   }
-}
-
-
-/*  */
-
-.intro__statistic-paragraph_amount {
-   font-weight: 400;
 }
