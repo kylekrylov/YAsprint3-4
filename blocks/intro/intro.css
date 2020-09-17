@@ -4,8 +4,12 @@
 @import "../intro/__statistic-paragraph/intro__statistic-paragraph.css";
 @import "../intro/__statistic-amount/intro__statistic-amount.css";
 .intro {
-   max-width: 683px;
    padding: 80px 0px 0px 0px;
+   display: flex;
+   flex-direction: column;
+   align-self: center;
+   max-width: 984px;
+   width: 100%;
 }
 
 @media (max-width: 767px) {

@@ -6,8 +6,9 @@
    display: flex;
    flex-direction: column;
    justify-content: center;
+   align-self: center;
    align-items: center;
    text-align: center;
    color: #FFFFFF;
-   max-width: 1184px;
+   max-width: 984px;
 }

@@ -1,0 +1,21 @@
+.place__website {
+   position: relative;
+   align-self: flex-end;
+}
+
+.place__website::before {
+   content: "URL";
+   color: #AAAAAA;
+   font-size: 12px;
+   line-height: 20px;
+   letter-spacing: 0.2em;
+   position: absolute;
+   top: -28px;
+   left: 0;
+}
+
+@media (max-width: 767px) {
+   .place__website {
+      display: none;
+   }
+}

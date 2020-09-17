@@ -52,14 +52,14 @@
    align-self: flex-end;
 }
 
-.place__website::after {
+.place__website::before {
    content: "URL";
    color: #AAAAAA;
    font-size: 12px;
    line-height: 20px;
    letter-spacing: 0.2em;
    position: absolute;
-   top: -20px;
+   top: -28px;
    left: 0;
 }
 
