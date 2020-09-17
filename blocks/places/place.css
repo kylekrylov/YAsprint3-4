@@ -1,10 +1,10 @@
 @import "__header/place__header.css";
-@import "/blocks/places/__image/place__image.css";
-@import "/blocks/places/__main/place__main.css";
-@import "/blocks/places/__paragraph/place__paragraph.css";
-@import "/blocks/places/__text/place__text.css";
-@import "/blocks/places/__title/place__title.css";
-@import "/blocks/places/__website/place__website.css";
+@import "__image/place__image.css";
+@import "__main/place__main.css";
+@import "__paragraph/place__paragraph.css";
+@import "__text/place__text.css";
+@import "__title/place__title.css";
+@import "__website/place__website.css";
 .places {
    display: flex;
    flex-direction: column;
