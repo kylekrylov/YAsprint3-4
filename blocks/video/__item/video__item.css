@@ -30,7 +30,7 @@
 
 @media (max-width: 767px) {
    .video__item {
-      width: 100%;
+      width: calc(100vw - 32px);
       padding: 16px;
    }
 }
