@@ -33,9 +33,9 @@
 }
 
 @media (max-width: 1023px) {
-   .main {
+   /* .main {
       padding: 0 48px;
-   }
+   } */
 }
 
 @media (max-width: 1023px) {
