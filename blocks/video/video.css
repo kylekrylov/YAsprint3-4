@@ -1,4 +1,5 @@
-@import "__";
+/* @import "__"; */
+
 .video {
    max-width: 1184px;
    display: flex;
