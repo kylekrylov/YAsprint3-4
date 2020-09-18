@@ -1,3 +1,6 @@
+@import"/blocks/footer/__links/footer__links.css";
+@import"/blocks/footer/__link/footer__link.css";
+@import"/blocks/footer/__copyright/footer__copyright.css";
 .footer {
    display: flex;
    justify-content: space-between;
@@ -20,6 +23,8 @@
    }
 }
 
+
+/* 
 @media (max-width: 767px) {
    .footer__links {
       display: flex;
@@ -62,4 +67,4 @@
 
 @media (max-width: 767px) {
    .footer__copyright {}
-}
+} */
