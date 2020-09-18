@@ -1,6 +1,6 @@
-@import"/blocks/footer/__links/footer__links.css";
-@import"/blocks/footer/__link/footer__link.css";
-@import"/blocks/footer/__copyright/footer__copyright.css";
+@import"__links/footer__links.css";
+@import"__link/footer__link.css";
+@import"__copyright/footer__copyright.css";
 .footer {
    display: flex;
    justify-content: space-between;
