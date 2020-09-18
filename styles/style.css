@@ -5,14 +5,19 @@
 @import "../blocks/photo-grid/photo-grid.css";
 @import "../blocks/places/place.css";
 @import "../blocks/video/video.css";
-
-/* @import "../blocks/comments/comments.css"; */
-
+@import "../blocks/comments/comments.css";
+@import "../blocks/comment/comment.css";
+@import "../blocks/cover/cover.css";
 
 /* @import "../blocks/cover/cover.css"; */
 
 * {
    transition: all 0.3s ease;
+}
+
+*::selection {
+   color: #000;
+   background: #fff;
 }
 
 .body {

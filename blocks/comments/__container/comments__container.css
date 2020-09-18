@@ -1,0 +1,10 @@
+.comments__container {
+   display: flex;
+   gap: 18px;
+}
+
+@media (max-width: 767px) {
+   .comments__container {
+      flex-direction: column;
+   }
+}

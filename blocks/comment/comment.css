@@ -1,0 +1,15 @@
+@import"__image/comment__image.css";
+@import"__quote/comment__quote.css";
+@import"__quote/comment__quote.css";
+.comment {
+   display: flex;
+   flex-direction: column;
+   flex: 33.333%;
+}
+
+@media (max-width: 768px) {
+   .comment {
+      max-width: 382px;
+      align-items: center;
+   }
+}

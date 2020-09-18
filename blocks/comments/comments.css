@@ -1,0 +1,8 @@
+@import"__container/comments__container.css";
+.comments {
+   display: flex;
+   flex-direction: column;
+   /* align-self: center; */
+   align-items: center;
+   padding: 100px 0px 0px 0px;
+}
