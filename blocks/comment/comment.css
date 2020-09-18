@@ -1,6 +1,6 @@
 @import"__image/comment__image.css";
 @import"__quote/comment__quote.css";
-@import"__quote/comment__quote.css";
+@import"__author/comment__author.css";
 .comment {
    display: flex;
    flex-direction: column;

@@ -8,9 +8,7 @@
 @import "../blocks/comments/comments.css";
 @import "../blocks/comment/comment.css";
 @import "../blocks/cover/cover.css";
-
-/* @import "../blocks/cover/cover.css"; */
-
+@import "../blocks/footer/footer.css";
 * {
    transition: all 0.3s ease;
 }
@@ -32,6 +30,9 @@
    min-height: 100vh;
    margin: 0 auto;
    font-family: 'Inter';
+   letter-spacing: 0.02em;
+   font-weight: 200;
+   font-style: normal;
    color: #fff;
 }
 
@@ -43,14 +44,11 @@
 }
 
 .link {
-   /* text-decoration: none; */
    color: inherit;
 }
 
 @media (max-width: 1023px) {
-   .main {
-      /* padding: 0 48px; */
-   }
+   .main {}
 }
 
 @media (max-width: 1023px) {

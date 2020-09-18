@@ -1,39 +1,35 @@
+@import"/blocks/cover/__title/cover__title.css";
+@import"/blocks/cover/__subtitle/cover__subtitle.css";
+@import"/blocks/cover/__cover-bg/cover__cover-bg.css";
 .cover {
    display: flex;
    flex-direction: column;
    align-items: center;
-   /* max-width: 1184px; */
-   margin: 100px 0px 160px 0px;
+   justify-content: center;
+   max-width: 1184px;
+   height: 594px;
+   margin: 100px 0px 0px 0px;
    position: relative;
    z-index: 10;
-}
-
-.cover__title {
-   font-weight: 900;
-   font-size: 72px;
-   line-height: 78px;
-   text-align: center;
-   z-index: 10;
+   box-sizing: content-box;
 }
 
 @media (max-width: 1023px) {
-   .cover__title {
-      max-width: 574px;
+   .cover {
+      height: 562px;
    }
 }
 
-.cover__subtitle {
-   font-size: 18px;
-   line-height: 26px;
-   text-align: center;
-   z-index: 10;
+@media (max-width: 767px) {
+   .cover {
+      margin: 70px 0px 0px 0px;
+      height: 350px;
+   }
 }
 
-.cover__cover-bg {
-   position: absolute;
-   top: 0;
-   max-width: 1184px;
-   width: 100vw;
-   height: auto;
-   z-index: 1;
+@media (max-width: 425px) {
+   .cover {
+      height: 272px;
+      margin: 48px 0px 0px 0px;
+   }
 }
