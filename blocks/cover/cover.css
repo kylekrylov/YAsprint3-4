@@ -7,7 +7,7 @@
    align-items: center;
    justify-content: center;
    max-width: 1184px;
-   height: 594px;
+   min-height: 594px;
    margin: 100px 0px 0px 0px;
    position: relative;
    z-index: 10;
@@ -16,20 +16,20 @@
 
 @media (max-width: 1023px) {
    .cover {
-      height: 562px;
+      min-height: 562px;
    }
 }
 
 @media (max-width: 767px) {
    .cover {
       margin: 70px 0px 0px 0px;
-      height: 350px;
+      min-height: 350px;
    }
 }
 
 @media (max-width: 425px) {
    .cover {
-      height: 272px;
+      min-height: 272px;
       margin: 48px 0px 0px 0px;
    }
 }
