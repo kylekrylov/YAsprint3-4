@@ -1,8 +1,8 @@
 .cover__subtitle {
-   position: absolute;
-   bottom: 0;
-   margin: 0px 0px 48px 0px;
-   max-width: 382px;
+   /* position: absolute;
+   bottom: 0; */
+   margin: auto 0px 48px 0px;
+   max-width: 574px;
    font-size: 18px;
    line-height: 26px;
    text-align: center;
@@ -11,7 +11,7 @@
 
 @media (max-width: 767px) {
    .cover__subtitle {
-      margin: 0px 0px 24px 0px;
+      margin: auto 0px 24px 0px;
       max-width: 343px;
       font-size: 14px;
       line-height: 17px;
